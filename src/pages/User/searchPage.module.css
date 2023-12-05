@@ -1,0 +1,8 @@
+.custom-menu-active {
+    color: rgb(255, 130, 2);
+    font-weight: 500;
+}
+
+.custom-menu {
+    color: #ccc;
+}

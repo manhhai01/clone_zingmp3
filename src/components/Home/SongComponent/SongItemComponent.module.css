@@ -1,0 +1,25 @@
+.custom-container-item {
+    width: 30%;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.custom-container-item:hover {
+    opacity: 60%;
+}
+
+.custom-container-img {
+    width: 70px;
+    height: 70px;
+}
+
+.custom-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.custom-container-info {
+    height: 70px;
+    margin-left: 10px;
+}

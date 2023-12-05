@@ -1,0 +1,18 @@
+.custom-menu-item-selected {
+  background-color: rgb(255, 130, 2) !important;
+  font-weight: 500;
+}
+
+.custom-menu-border {
+  border-right: 3px solid rgb(255, 130, 2);
+}
+
+.custom-sider {
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  background: black;
+}

@@ -1,0 +1,47 @@
+.custom-header {
+  padding: 0;
+  background: linear-gradient(to right, #181818, #2a2a2a);
+  min-height: 80px;
+  position: fixed;
+  top: 0px;
+  left: 200px;
+  right: 0px;
+  z-index: 99;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-height {
+    height: 80px;
+}
+
+.custom-icon {
+    color: #808080;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #ccc;
+  position: relative;
+  margin-left: 12px;
+}
+
+.avatar:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.avatar-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

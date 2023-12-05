@@ -1,0 +1,42 @@
+.custom-min-height-center {
+  min-height: 60px;
+}
+
+.custom-icon-center {
+  font-size: 22px;
+  color: #ccc;
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+.custom-process-bottom {
+  width: 60%;
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: auto;
+  position: relative;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: height 0.3s;
+  margin: 0;
+}
+
+.custom-process-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 1%;
+  bottom: 0;
+  background-color: #e66b00;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: height 0.3s
+}
+
+.custom-process-bottom:hover {
+  height: 6px;
+}
+
+.custom-process-top:hover {
+  height: 6px;
+}

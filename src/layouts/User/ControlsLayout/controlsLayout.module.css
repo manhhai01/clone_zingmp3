@@ -1,0 +1,12 @@
+.custom-controls-layout {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 99;
+  min-height: 100px;
+  background: linear-gradient(to right, #393939, #323232);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
